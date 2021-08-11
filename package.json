@@ -1,0 +1,30 @@
+{
+  "name": "pic-share",
+  "description": "",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myanzik/pic-share.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myanzik/pic-share/issues"
+  },
+  "homepage": "https://github.com/myanzik/pic-share#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.3",
+    "dotenv": "^10.0.0"
+  }
+}
