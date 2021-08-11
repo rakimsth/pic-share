@@ -1,0 +1,69 @@
+{
+  "name": "crowd-funding",
+  "version": "0.1.0",
+  "homepage": "http://rakimsth.github.io/crowd-funding",
+  "description": "An Ethereum SC based Crowd Funding Platform",
+  "author": "rakimsth@gmail.com",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "history": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "sweetalert2": "^11.0.11",
+    "truffle": "^5.3.7",
+    "web3": "^1.3.6",
+    "web3modal": "^1.9.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "pretty": "prettier --write **/*.js **/*.sol",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "ganache-core": "^2.13.2",
+    "gh-pages": "^3.2.0",
+    "husky": "4.3.8",
+    "prettier": "^2.3.0",
+    "prettier-plugin-solidity": "^1.0.0-beta.10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run pretty && git add ."
+    }
+  }
+}
