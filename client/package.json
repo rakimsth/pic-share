@@ -1,8 +1,8 @@
 {
   "name": "crowd-funding",
   "version": "0.1.0",
-  "homepage": "http://rakimsth.github.io/crowd-funding",
-  "description": "An Ethereum SC based Crowd Funding Platform",
+  "homepage": "http://rakimsth.github.io/pic-share",
+  "description": "A Marketplace for sharing your files to any other user using email",
   "author": "rakimsth@gmail.com",
   "private": true,
   "dependencies": {
